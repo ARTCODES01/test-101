@@ -267,6 +267,12 @@
 
 
 /*** About Start ***/
+@media only screen and (max-width: 600px) {
+    .about-img {
+      display: none;
+    }
+  }
+
 
 .about-img {
     width: 100%;
@@ -709,11 +715,20 @@
     margin-top: 6rem;
 }
 
+.footer-item a:hover {
+    color: rgb(0, 0, 0); /* Change to orange on hover */
+    text-transform: capitalize;
+    transition: color 0.5s; /* Slower transition effect */
+}
+
+
 .footer-item,
 .footer-item a {
     color: rgba(255, 255, 255, .7);
     text-transform: capitalize;
 }
+
+
 
 /*** Footer End ***/
 
