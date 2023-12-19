@@ -53,62 +53,18 @@
 
 
 
-/*** Topbar Start ***/
-
-.search-btn {
-    position: relative;
-    width: 100%;
-    padding: 0 0 0 25px;
-}
-
-.search-btn .form-group {
-    width: 100%;
-}
-
-.search-btn button {
-    position: absolute;
-    right: 25px;
-}
-
-@media (max-width: 992px) {
-    .search-btn {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .topbar {
-        flex-direction: column;
-    }
-    .search-btn {
-        display: none;
-    }
-    .topbar-info {
-        flex-direction: column;
-    }
-    .topbar-info a {
-        padding: 0 0 10px 0;
-    }
-    .topbar-icon {
-        padding: 0 0 10px 0;
-    }
-}
-
-@media (max-width: 576px) {
-    .topbar-top {
-        display: none;
-    }
-}
-
-/*** Topbar End ***/
-
 /*** Navbar Start ***/
 .navbar {
-    background-color: #000 !important; /* Black background color */
+    background-color: #a9a9a9; /* Black background color */
+}
+
+.navbar-icon {
+    max-height: 100px; /* Adjust the max height as needed */
+    width: auto;
 }
 
 .navbar .navbar-nav {
-    padding: 15px 0;
+    padding: 30px 0;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -136,6 +92,10 @@
 }
 
 @media (min-width: 992px) {
+    .navbar {
+        border-radius: 25px; /* Adjust the radius as needed for more round edges */
+    }
+
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         display: block;
         visibility: hidden;
@@ -145,28 +105,29 @@
         transition: .5s;
         opacity: 0;
     }
-}
 
-.dropdown .dropdown-menu a:hover,
-.dropdown .dropdown-menu a.active {
-    background: #333; /* Dark gray background color */
-    color: var(--bs-primary);
-}
+    .dropdown .dropdown-menu a:hover,
+    .dropdown .dropdown-menu a.active {
+        background: #333; /* Dark gray background color */
+        color: var(--bs-primary);
+    }
 
-.navbar .nav-item:hover .dropdown-menu {
-    transform: rotateX(0deg);
-    visibility: visible;
-    transition: .5s;
-    opacity: 1;
+    .navbar .nav-item:hover .dropdown-menu {
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
 }
 
 .navbar-toggler {
     background: var(--bs-secondary);
-    color: var(--bs-light) !important;
+    color: var(--bs-light);
     padding: 5px 12px;
-    border: 2px solid var(--bs-primary) !important;
+    border: 2px solid var(--bs-primary);
 }
 /*** Navbar End ***/
+
 
 
 
@@ -356,6 +317,18 @@
 
 
 /*** Services Start ***/
+
+.services-item:hover .services-inner-icon svg,
+.services-item:hover .services-inner-icon i {
+    transform: rotate(180deg);
+    fill: black !important;
+}
+
+/* Add this to prevent flickering on hover */
+.services-inner-icon {
+    transition: transform 0.5s ease-in-out;
+}
+
 .services-inner-icon {
     width: 130px;
     height: 130px;
@@ -406,7 +379,24 @@
     justify-content: center;
 }
 
+.services-inner-icon {
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.services-item .services-inner-icon svg,
+.services-item .services-inner-icon i {
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.services-item:hover .services-inner-icon svg,
+.services-item:hover .services-inner-icon i {
+    transform: rotate(360deg);
+    color: black !important;
+    z-index: 1;
+}
+
 /*** Services Start ***/
+
 
 /*** Project Start ***/
 .project-item {
