@@ -1,38 +1,54 @@
- 
+LICENSE AGREEMENT
 
- => FREE HTML TEMPLATE LICENSE BY HTML Codex
+This License Agreement (the "Agreement") is entered into by and between Tess ("Licensor") and any individual or entity ("Licensee") who downloads, installs, or uses the software provided by Licensor, as for this case the website.
 
- All free HTML templates by HTML Codex are licensed under a Creative Commons Attribution 4.0 International License which means you are not allowed to remove the author’s credit link/attribution link/backlink.
+1. DEFINITIONS
 
- When you download or use our free HTML templates, it will attribute the following conditions.
+1.1 "Software" refers to any code, files, or materials provided by Licensor, including but not limited to the website code, scripts, and associated documentation.
+
+1.2 "Site" refers to the site wich was made for the client.
+
+2. LICENSE GRANT
+
+2.1 Subject to the terms and conditions of this Agreement, Licensor grants Licensee a non-exclusive, non-transferable license to use, modify, and host the Software on Licensee's server for the purpose of operating the Site.
+
+2.2 This license is valid from the date of acceptance by Licensee and shall continue for a period of one (1) year.
+
+3. MAINTENANCE FEE
+
+3.1 Licensee agrees to pay a maintenance fee of $30 USD annually to Licensor to support the continued availability and support of the Software.
+
+3.2 The maintenance fee is due within 30 days after the expiration of each one-year period.
+
+3.3 Failure to pay the maintenance fee within the specified time frame will result in the automatic termination of this license and takedown of the site.
+
+4. INTELLECTUAL PROPERTY
+
+4.1 Licensor retains all rights, title, and interest in and to the Software, including any modifications or enhancements made by Licensee.
+
+4.2 Licensee agrees not to reverse engineer, decompile, or disassemble the Software.
+
+5. TERMINATION
+
+5.1 This Agreement may be terminated by Licensor if Licensee fails to comply with any of its terms and conditions.
+
+5.2 Upon termination, Licensee agrees to cease using the Software and remove all copies from their server.
+
+6. DISCLAIMER OF WARRANTY
+
+6.1 The Software is provided "as is" without any warranty, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.
+
+7. LIMITATION OF LIABILITY
+
+7.1 In no event shall Licensor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this Software.
 
 
- => YOU ARE ALLOWED
+**GOVERNING LAW**
 
-      1. You are allowed to use for your personal and commercial purposes.
+This Agreement shall be governed by and construed in accordance with the laws.
 
-      2. You are allowed to modify/customize however you like.
+IN WITNESS WHEREOF, the parties hereto have executed this License Agreement as of the Effective Date.
 
-      3. You are allowed to convert/port for use for any CMS.
-
-      4. You are allowed to share/distribute under the HTML Codex brand name.
-
-      5. You are allowed to put a screenshot or a link on your blog posts or any other websites.
-
-
- => YOU ARE NOT ALLOWED
-
-      1. You are not allowed to remove the author’s credit link/attribution link/backlink without purchasing Credit Removal License ( https://htmlcodex.com/credit-removal ).
-
-      2. You are not allowed to sell, resale, rent, lease, license, or sub-license.
-
-      3. You are not allowed to upload on your template websites or template collection websites or any other third party websites without our permission.
-
-
- => If the template contains premium stock photos which are only for demo purposes and not distributed with the template. You need to purchase them separately from the corresponding stock photo website. You are responsible for adhering to the original license of them if necessary.
-
-
- => This license can be terminated if you breach any of these conditions.
-
-
- => PURCHASE CREDIT REMOVAL LICENSE ( https://htmlcodex.com/credit-removal )
+_______________________               __________
+Â© tess                                19/12/2023
+                          symrs.com
