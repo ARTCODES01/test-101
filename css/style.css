@@ -55,7 +55,9 @@
 
 /*** Navbar Start ***/
 .navbar {
-    background-color: #a9a9a9; /* Black background color */
+    background-color: transparent; /* Set the background to transparent */
+    border-radius: 25px; /* Adjust the radius as needed for rounded edges */
+    overflow: hidden; /* Hide overflow content (sides) */
 }
 
 .navbar-icon {
@@ -93,7 +95,7 @@
 
 @media (min-width: 992px) {
     .navbar {
-        border-radius: 25px; /* Adjust the radius as needed for more round edges */
+        border-radius: 25px; /* Adjust the radius as needed for rounded edges */
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -127,8 +129,6 @@
     border: 2px solid var(--bs-primary);
 }
 /*** Navbar End ***/
-
-
 
 
 
