@@ -173,6 +173,12 @@
 
 /*** Carousel Start ***/
 
+@media only screen and (max-width: 600px) {
+    .carousel {
+      display: none;
+    }
+  }
+
 .carousel-item {
     position: relative;
 }
@@ -252,7 +258,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carouesel\ pic\ 1-1-.jpg) center center no-repeat;
     background-size: cover;
     margin-bottom: 6rem;
 }
@@ -698,7 +704,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background-color: #333; /* Dark gray color */
+    background-color: #fd7e14; /* Dark gray color */
     color: rgba(255, 255, 255, .7);
     margin-top: 6rem;
 }
@@ -713,6 +719,13 @@
 
 
 /*** Copywright Start ***/
+.copyright a.text-primary {
+    font-size: 21px; 
+    color: #ffffff; 
+    text-align: left; 
+    margin-top: 16px;
+    text-decoration: none; 
+}
 
 .copyright .copyright-btn {
     display: flex;
@@ -729,4 +742,3 @@
 }
 
 /*** Copywright End ***/
-
